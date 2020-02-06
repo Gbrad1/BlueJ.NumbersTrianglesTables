@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class NumberUtilitiesTest {
-    
+
     @Test
     public void testGetRangeForSmallRange() {
         // : Given
@@ -17,8 +17,8 @@ public class NumberUtilitiesTest {
         // : Then
         Assert.assertEquals(expected, actual);
     }
-    
-    
+
+
     @Test
     public void testGetRangeToTwoDigits() {
         // : Given
@@ -60,7 +60,7 @@ public class NumberUtilitiesTest {
         Assert.assertEquals(expected, actual);
     }
 
-    
+
     @Test
     public void testGetRangeWithOneStep() {
         // : Given
@@ -107,7 +107,7 @@ public class NumberUtilitiesTest {
         Assert.assertEquals(expected, actual);
     }
 
-    
+
     @Test
     public void testGetEvenNumbersStartAndEndAtEven() {
         // : Given
@@ -122,7 +122,7 @@ public class NumberUtilitiesTest {
         Assert.assertEquals(expected, actual);
     }
 
-    
+
     @Test
     public void testGetEvenNumbersStartAndEndAtOdd() {
         // : Given
@@ -137,7 +137,7 @@ public class NumberUtilitiesTest {
         Assert.assertEquals(expected, actual);
     }
 
-    
+
     @Test
     public void testGetOddNumbersStartAndEndAtOdd() {
         // : Given
@@ -180,8 +180,8 @@ public class NumberUtilitiesTest {
         // : Then
         Assert.assertEquals(expected, actual);
     }
-    
-    
+
+
     @Test
     public void testGetExponentiationNumbersForCube() {
         // : Given
